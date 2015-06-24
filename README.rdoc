@@ -5,17 +5,27 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+Installation method
+Fork https://github.com/ytbryan/codingshophouse.
+Clone to a directory of your choosing.
+Update Ruby version in Gemfile and .ruby-version from '2.2.1' to '2.2.2'.
+
+The Ruby version of this app is 2.2.2
 
 * System dependencies
 
 * Configuration
 
 * Database creation
-
 * Database initialization
+Setup postgresql credentials in database.yml.
+
+Run rake db:create
+codingshop-ryan_development and codingshop-ryan_test should be created.
+Run rake db:migrate to create all the tables necessary for the project.
 
 * How to run the test suite
+rails server to start server
 
 * Services (job queues, cache servers, search engines, etc.)
 
