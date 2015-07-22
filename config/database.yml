@@ -4,8 +4,9 @@ default: &default
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: 5
-  username: Shiung
-  password: hikari
+  username: <%= ENV['PG_DATABASE_USERNAME']%>
+  password: <%= ENV['PG_DATABASE_PASSWORD'] %>
+
 
 development:
   <<: *default
@@ -67,5 +68,5 @@ test:
 production:
   <<: *default
   database: codingshop-ryan_production
-  username: codingshop-ryan
-  password: <%= ENV['CODINGSHOP-RYAN_DATABASE_PASSWORD'] %>
+  username: <%= ENV['PG_DATABASE_USERNAME']%>
+  password: <%= ENV['PG_DATABASE_PASSWORD'] %>

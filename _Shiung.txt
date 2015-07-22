@@ -21,3 +21,8 @@ Obstacle:
   Unable to locate Heroku app in personal Heroku account.
   Access denied error to the app codingshophouse after:
     heroku git:clone -a codingshophouse
+
+Findings:
+  Attempting alternative with new resource on:
+    http://www.crowdco.de/tutorials/19
+  
