@@ -1,0 +1,23 @@
+150722 Log 1
+Shiung here, creating modification log and setting up environment (branches) for first commit.
+Testing out GitHub synch.
+
+Updated README.rdoc file
+
+TODO: Setup NewRelic to ping codingshophouse.herokuapp.com
+
+Using New Relic APM
+https://addons.heroku.com/newrelic
+  $ heroku addons:create newrelic
+
+Encountered errors
+  ! No app specified
+  ! Run this command from an app folder or specify which app to use with --app APP.
+
+Thoughts:
+  This might be due to the fact I'm working on the local directory instead of the remote Heroku repository.
+
+Obstacle:
+  Unable to locate Heroku app in personal Heroku account.
+  Access denied error to the app codingshophouse after:
+    heroku git:clone -a codingshophouse
