@@ -3,14 +3,21 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
+The Ruby version of this app is 2.2.2
+
 Things you may want to cover:
 
-Installation method
-Fork https://github.com/ytbryan/codingshophouse.
-Clone to a directory of your choosing.
-Update Ruby version in Gemfile and .ruby-version from '2.2.1' to '2.2.2'.
+== Starting Steps
+1. Fork https://github.com/ytbryan/codingshophouse to your GitHub repository
+2. Clone to a local directory(file) on your computer.
+3. Create and more to a Work-In-Progress(WIP) branch locally on your computer in project directory.
+3. Update Ruby version in Gemfile and .ruby-version from '2.2.1' to '2.2.2'.
+4. Configure to create a database by modifying the database.yml file for user and password.
+5. Run rake commands and start the server.
 
-The Ruby version of this app is 2.2.2
+* Other Helpful links
+Remote_forking[https://help.github.com/articles/configuring-a-remote-for-a-fork/]
+Fork_synchronization[https://help.github.com/articles/syncing-a-fork/]
 
 * System dependencies
 
